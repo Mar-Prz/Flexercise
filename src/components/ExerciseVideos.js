@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Stack, Typography } from '@mui/material';
 
+//Video exercises from youtube
 const ExerciseVideos = ( {exerciseVideos, name }) => {
   if(!exerciseVideos.length) return 'Loading...'
   return (
