@@ -3,7 +3,7 @@ import React from 'react';
 import { Stack, Typography } from '@mui/material';
  
 import Icon from '../assets/icons/gym.png';
-
+//Adding a body part and alining 
 const BodyPart = ({ item, setBodyPart, bodyPart}) => {
   return (
    <Stack

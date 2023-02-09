@@ -4,7 +4,7 @@ import { Box, Button, Stack, TextField, Textfield,
 
   import { exerciseOptions, fetchData } from '../utils/fetchData';
   import HorizontalScrollbar from './HorizontalScrollbar';
-
+//setting search functionality 
 const SearchExercises = ({setExercises,
 bodyPart, setBodyPart}) => {
 const [search, setSearch] = useState('');
